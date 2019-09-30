@@ -1,0 +1,53 @@
+{
+  "name": "placeholder-cli",
+  "description": "A command line tool that replaces images with placeholder images.",
+  "version": "1.0.0",
+  "author": "Milos Bejda @mbejda",
+  "bin": {
+    "placeholder": "./bin/run"
+  },
+  "bugs": "https://github.com/mbejda/placeholder-cli/issues",
+  "dependencies": {
+    "@oclif/command": "1.5.19",
+    "@oclif/config": "1.13.3",
+    "@oclif/plugin-help": "2.2.1",
+    "chalk": "2.4.2",
+    "cli-ux": "5.3.2",
+    "glob": "7.1.4",
+    "image-size": "0.8.2",
+    "listr": "0.14.3",
+    "pureimage": "0.1.6"
+  },
+  "devDependencies": {
+    "@oclif/test": "1.2.5",
+    "chai": "4.2.0",
+    "eslint": "5.16.0",
+    "eslint-auto-fix": "1.0.0",
+    "eslint-config-oclif": "3.1.0",
+    "mocha": "5.2.0",
+    "node-image-hash": "1.0.6",
+    "nyc": "13.3.0"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/mbejda/placeholder-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "placeholder"
+  },
+  "repository": "mbejda/placeholder-cli",
+  "scripts": {
+    "fix-js": "npx eslint-auto-fix \"src/**/*.js\" \"cli.js\" \"bin/*.js\"",
+    "posttest": "eslint .",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\""
+  }
+}
