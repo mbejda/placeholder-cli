@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="https://github.com/mbejda/placeholder-cli/blob/master/images/placeholder.png?raw=true">
+  <img width="600" height="300" src="https://github.com/mbejda/placeholder-cli/blob/master/images/placeholder.png?raw=true">
 </p>
 
 # :rainbow: Placeholder Cli
@@ -21,8 +21,8 @@ Perfect for replacing images that require a special license with generic placeho
 </p>
 
 
-The utility recursively replaces images that match the glob with placeholder images that have the
-same width and height.  
+The utility recursively replaces images that match the glob with placeholder images with the exact
+width and height. 
 
 
 <br>
