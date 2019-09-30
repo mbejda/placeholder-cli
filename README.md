@@ -1,5 +1,6 @@
+<p align="center">
 ![placeholder](/images/placeholder.png);
-
+</p>
 # :rainbow: Placeholder Cli
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
@@ -11,7 +12,7 @@
 A friendly command line tool that replaces images with placeholders.
 Perfect for replacing images that require a special license :smile: 
 
-## :movie_camera: How it works
+# :movie_camera: How it works
 ![placeholder](/images/example.gif);
 
 
