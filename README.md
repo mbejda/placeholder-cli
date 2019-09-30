@@ -1,6 +1,7 @@
 <p align="center">
-![placeholder](/images/placeholder.png);
+  <img width="460" height="300" src="https://github.com/mbejda/placeholder-cli/blob/master/images/placeholder.png?raw=true">
 </p>
+
 # :rainbow: Placeholder Cli
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
@@ -10,10 +11,14 @@
 
 
 A friendly command line tool that replaces images with placeholders.
-Perfect for replacing images that require a special license :smile: 
+Perfect for replacing images that require a special license with generic placeholders. 
+
 
 # :movie_camera: How it works
-![placeholder](/images/example.gif);
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/mbejda/placeholder-cli/blob/master/images/example.gif?raw=true">
+</p>
 
 
 The utility recursively replaces images that match the glob with placeholder images that have the

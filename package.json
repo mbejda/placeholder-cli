@@ -1,7 +1,7 @@
 {
   "name": "placeholder-cli",
   "description": "A command line tool that replaces images with placeholders.",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "Milos Bejda - @mbejda",
   "bin": {
     "placeholder": "./bin/run"
@@ -37,6 +37,11 @@
   ],
   "homepage": "https://github.com/mbejda/placeholder-cli",
   "keywords": [
+    "placeholder",
+    "placeholder cli",
+    "placeholder-cli",
+    "replace images",
+    "images",
     "oclif"
   ],
   "license": "MIT",
