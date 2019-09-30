@@ -1,8 +1,8 @@
 {
   "name": "placeholder-cli",
-  "description": "A command line tool that replaces images with placeholder images.",
-  "version": "1.0.0",
-  "author": "Milos Bejda @mbejda",
+  "description": "A command line tool that replaces images with placeholders.",
+  "version": "1.0.1",
+  "author": "Milos Bejda - @mbejda",
   "bin": {
     "placeholder": "./bin/run"
   },

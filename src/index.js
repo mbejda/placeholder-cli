@@ -20,12 +20,12 @@ class PlaceholderCommand extends Command {
     const fontSize = flags.fontSize || 100;
     const fontColor = flags.fontColor || '#969696';
     const bgColor = flags.bgColor || '#CCCCCC';
-
     const fontInfo = {
       path: path.resolve(__dirname, 'font/SourceSansPro-Bold.ttf'),
       name: 'Source Sans Pro',
     };
     const options = {
+      cwd: process.cwd(),
       ignore: ['**/node_modules/**', './node_modules/**'],
     };
     const files = await this.getFiles(globPath, options);
@@ -110,11 +110,13 @@ PlaceholderCommand.flags = {
   fontSize: flags.string({char: 'fs', description: 'font size'}),
 };
 
+
+PlaceholderCommand.strict = false;
 PlaceholderCommand.args = [
   {
     name: 'path',
     required: true,
-    description: '"./**/*.{jpg, jpeg, png}"',
+    description: './**/*.{jpg, jpeg, png}',
   },
 ];
 
