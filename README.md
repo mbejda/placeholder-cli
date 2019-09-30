@@ -10,8 +10,9 @@
 
 
 
-A friendly command line tool that replaces images with placeholders.
-Perfect for replacing images that require a special license with generic placeholders. 
+A friendly command line tool that replaces images with placeholders. 
+Don't have a proper distribution license for those images? No worries,
+this tool will replace them with placeholders. 
 
 
 # :movie_camera: How it works
@@ -21,7 +22,7 @@ Perfect for replacing images that require a special license with generic placeho
 </p>
 
 
-The utility recursively replaces images that match the glob with placeholder images with the exact
+The tool recursively replaces images that match the glob with placeholders that have the same exact
 width and height. 
 
 
